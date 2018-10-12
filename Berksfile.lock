@@ -1,0 +1,10 @@
+DEPENDENCIES
+  chocolatey (~> 2.0.1)
+  windowsdev
+    path: .
+    metadata: true
+
+GRAPH
+  chocolatey (2.0.1)
+  windowsdev (0.1.0)
+    chocolatey (>= 0.0.0)
